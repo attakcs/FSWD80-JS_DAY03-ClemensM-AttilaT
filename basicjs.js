@@ -18,8 +18,8 @@ var multis = [1,3,7,10,2];
 function multiplication (a) {
 	for (i=0; i<a.length; i++) {
 		b = a[i];
-		b = parseInt(b)*parseInt(a[i+1]);
-		return a; }
-	}
+		b =parseInt(b)*parseInt(a[i+1]);
+		return b;
+	}}
 	multiplication(multis);
 	console.log(b);
