@@ -9,3 +9,12 @@ for (i=0; i<grades.length; i++){
 
 document.write (average);
 console.log (aver);
+
+switch (true) {
+	case aver >=90:
+	console.log("A");
+	break;
+	case aver >=80:
+	console.log("B");
+	break;
+}
